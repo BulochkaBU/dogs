@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+  background: url("./assets/paws.jpg");
+  background-size: cover;
+}
+
+* {
+  margin: 0;
+}
