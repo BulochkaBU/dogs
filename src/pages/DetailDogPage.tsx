@@ -1,5 +1,5 @@
 import { Link, useParams } from "react-router-dom";
-import { useGetDetailDogQuery } from "../store/dogsSlice";
+import { useGetDetailDogQuery } from "../store/dogsApi";
 import Button from "../components/shared/Button";
 import Loading from "../components/shared/Loading";
 import Error from "../components/shared/Error";
