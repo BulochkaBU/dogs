@@ -1,6 +1,6 @@
 import { configureStore } from "@reduxjs/toolkit";
 import { dogsApi } from "./dogsApi";
-import DogsSlice from "./DogsSlice";
+import DogsSlice from "./dogSlice";
 
 export const store = configureStore({
   reducer: {

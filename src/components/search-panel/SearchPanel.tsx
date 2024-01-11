@@ -1,6 +1,6 @@
 import { useCallback } from "react";
 import { useAppDispatch, useAppSelector } from "../../store/hooks";
-import { setSearchBreedDog } from "../../store/DogsSlice";
+import { setSearchBreedDog } from "../../store/dogSlice";
 
 export default function SearchPanel() {
   const dispatch = useAppDispatch();
